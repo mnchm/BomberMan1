@@ -115,10 +115,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Controler.h" />
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Guard.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Controler.cpp" />
+    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Guard.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Point.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Bomberman.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Board.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
